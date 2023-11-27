@@ -26,3 +26,10 @@ Unflipped training using panoramic radiograph images of patients aged between 7-
 
 ## Multi-Task Duo (7-23 yrs)
 transfer learning and Fine-tuning with [Duo(7-23 yrs)](Multi-Task_Duo)
+
+## Results (7-23 yrs)
+|  Transfer learning  | Fine-tuning  | Age (RMSE)  | Gender(Accuracy)  |  Age (R^2) | Epochs |
+| --------------------|:------------:|:-----------:|:-----------------:|:----------:|:------:|
+|         Duo         |      -       |     2.55    |      77.79%       |   72.88%   |  3,000 |
+|         Duo         |     Duo      |     2.55    |      77.79%       |   72.88%   |  3,000 |
+
