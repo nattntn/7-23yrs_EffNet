@@ -31,5 +31,7 @@ transfer learning and Fine-tuning with [Duo(7-23 yrs)](Multi-Task_Duo)
 |  Transfer learning  | Fine-tuning  | Age (RMSE)  | Gender(Accuracy)  |  Age (R^2) | Epochs |
 | :------------------:|:------------:|:-----------:|:-----------------:|:----------:|:------:|
 |         Duo         |      -       |     2.55    |      77.79%       |   72.88%   |  3,000 |
-|         Duo         |     Duo      |     2.55    |      77.79%       |   72.88%   |  3,000 |
+|         Duo         |  **Duo(18)** |     1.58    |      86.58%       |   89.66%   |  1,500 |
+|         Duo         |    Duo(26)   |     1.66    |      86.46%       |   88.55%   |  3,500 |
+
 
