@@ -25,7 +25,11 @@ Unflipped training using panoramic radiograph images of patients aged between 7-
 |**Sum**|    **995**    |    **1,007**    |   **2,002**  |   **3,785**  |
 
 ## Multi-Task Duo (7-23 yrs)
-transfer learning and Fine-tuning with [Duo(7-23 yrs)](Multi-Task_Duo)
+* transfer learning and Fine-tuning with [Duo(7-23 yrs)](Multi-Task_Duo)
+  * [Colab (train round18)](https://colab.research.google.com/drive/1EYq2TfD1rz-_dcLBhubZ09I1wOeyBVgA?usp=sharing)
+  * [Colab (predict round18)](https://colab.research.google.com/drive/1pTBi_36uTNoY1OToI5wMf3zQtQBduRGO?usp=sharing)
+  * [Colab (train round26)](https://colab.research.google.com/drive/1-7xOYkyl0wohi6GfH9OVuh9-QQdl37J7?usp=sharing)
+  * [Colab (predict round26)](https://colab.research.google.com/drive/19AqXF1kcoouylNK7bjoRptikT9c2_ZGk?usp=sharing)
 
 ## Results (7-23 yrs)
 |  Transfer learning  | Fine-tuning  | Age (RMSE)  | Gender(Accuracy)  |  Age (R^2) | Epochs |
