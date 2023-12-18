@@ -38,5 +38,8 @@ Unflipped training using panoramic radiograph images of patients aged between 7-
 |         Duo         |  **Duo(18)** |     1.58    |      86.58%       |   89.66%   |  1,500 |
 |         Duo         |    Duo(26)   |     1.66    |      86.46%       |   88.55%   |  3,500 |
 |         Age         |      -       |     2.31    |        -          |   77.80%   |  3,250 |
+|         Age         | **Duo(19)**  |     1.62    |      86.82%       |   89.05%   |  1,500 |
+|         Age         |   Duo(23)    |     1.62    |      86.82%       |   89.01%   |  2,500 |
+|         Age         |   Duo(26)    |     1.67    |      86.70%       |   88.45%   |  3,250 |
 
 
