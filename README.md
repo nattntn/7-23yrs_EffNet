@@ -38,7 +38,12 @@ Unflipped training using panoramic radiograph images of patients aged between 7-
     * [Colab (predict round23)](https://colab.research.google.com/drive/1Z2IJqaSQXJ9jciR_GW9tzavblfZJoN4I?usp=sharing)
   * [Colab (train round26)](https://colab.research.google.com/drive/1VvWf1lJGbRUbLTjS6WkDeeZa3czz8jaR#scrollTo=Zed4TdFcG2iJ)
     * [Colab (predict round26)](https://colab.research.google.com/drive/1E3Bm_K5M4jg3TbldYRx_u8Jbe1-nHweP?usp=sharing)
-  
+* transfer learning with **Gender**  and Fine-tuning with Duo
+  * [Drive](https://drive.google.com/drive/u/0/folders/10uvdBRCiCPqL-KQlL3QgDXZPy2aR6CED)
+  * [Colab (train round23)](https://colab.research.google.com/drive/1ZxarhFYVQh7MHnCs5nUTKzdMVhjrvqYE#scrollTo=Zed4TdFcG2iJ)
+    * [Colab (predict round23)](https://colab.research.google.com/drive/1m1ATv9aHUK0_our3GeEcajXdjjaNHNyf?usp=sharing)
+  * [Colab (train round24)](https://colab.research.google.com/drive/1ony3fYpIhLKs9EtKusPUgbxXiGlmPfsI#scrollTo=skoKhKJDngAZ)
+    * [Colab (predict round24)](https://colab.research.google.com/drive/1OxdZQSCuj0ep8HBn0-A23VNQklsZMOnr?usp=sharing)
 
 ## Results (7-23 yrs)
 |  Transfer learning  | Fine-tuning  | Age (RMSE)  | Gender(Accuracy)  |  Age (R^2) |  ROC   | Epochs |
@@ -51,6 +56,6 @@ Unflipped training using panoramic radiograph images of patients aged between 7-
 |         Age         |   Duo(23)    |     1.62    |      86.82%       |   89.01%   |  0.94  | 2,500 |
 |         Age         |   Duo(26)    |     1.67    |    **86.70%**     |   88.45%   |  0.94  | 3,250 |
 |        Gender       |      -       |      -      |      71.58%       |     -      |  2,500 |
-|        Gender       | **Duo(23)**  |     1.58    |      87.17%       |   89.56%   |  3,250 |
-|        Gender       |   Duo(24)    |   **1.60**  |      86.34%       | **89.32%** |  3,500 |
+|        Gender       | **Duo(23)**  |     1.58    |      87.17%       |   89.56%   |  0.94  |  3,250 |
+|        Gender       |   Duo(24)    |   **1.60**  |      86.34%       | **89.32%** |  0.93  |  3,500 |
 
