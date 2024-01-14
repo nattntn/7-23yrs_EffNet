@@ -26,6 +26,7 @@ Unflipped training using panoramic radiograph images of patients aged between 7-
 
 ## Multi-Task Duo (7-23 yrs)
 * transfer learning and Fine-tuning with **Duo**
+  *[Drive](https://drive.google.com/drive/u/0/folders/1c97Xg1FNQZ2esY3IEt-Vi1YoQWT0_XQc)
   * [Colab (train round18)](https://colab.research.google.com/drive/1EYq2TfD1rz-_dcLBhubZ09I1wOeyBVgA?usp=sharing)
     * [Colab (predict round18)](https://colab.research.google.com/drive/1pTBi_36uTNoY1OToI5wMf3zQtQBduRGO?usp=sharing)
   * [Colab (train round26)](https://colab.research.google.com/drive/1-7xOYkyl0wohi6GfH9OVuh9-QQdl37J7?usp=sharing)
@@ -48,14 +49,14 @@ Unflipped training using panoramic radiograph images of patients aged between 7-
 ## Results (7-23 yrs)
 |  Transfer learning  | Fine-tuning  | Age (RMSE)  | Gender(Accuracy)  |  Age (R^2) |  ROC   | Epochs |
 | :------------------:|:------------:|:-----------:|:-----------------:|:----------:|:------:|:------:|
-|         Duo         |      -       |     2.55    |      77.79%       |   72.88%   |  3,000 |
+|         Duo         |      -       |     2.55    |      77.79%       |   72.88%   |   -    |  3,000 |
 |         Duo         |  **Duo(18)** |     1.58    |      86.58%       |   89.66%   |  1,500 |
 |         Duo         |    Duo(26)   |     1.66    |      86.46%       |   88.55%   |  3,500 |
-|         Age         |      -       |     2.31    |        -          |   77.80%   |  3,250 |
+|         Age         |      -       |     2.31    |        -          |   77.80%   |   -    |  3,250 |
 |         Age         | **Duo(19)**  |     1.62    |      86.82%       |   89.05%   |  0.93  | 1,500 |
 |         Age         |   Duo(23)    |     1.62    |      86.82%       |   89.01%   |  0.94  | 2,500 |
 |         Age         |   Duo(26)    |     1.67    |    **86.70%**     |   88.45%   |  0.94  | 3,250 |
-|        Gender       |      -       |      -      |      71.58%       |     -      |  2,500 |
+|        Gender       |      -       |      -      |      71.58%       |     -      |   -    |  2,500 |
 |        Gender       | **Duo(23)**  |     1.58    |      87.17%       |   89.56%   |  0.94  |  3,250 |
 |        Gender       |   Duo(24)    |   **1.60**  |      86.34%       | **89.32%** |  0.93  |  3,500 |
 
